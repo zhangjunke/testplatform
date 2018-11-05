@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+	<title>测试开放平台</title>
+    <!--<link href="style/adminStyle.css" rel="stylesheet" type="text/css" />-->
+    <link rel="stylesheet" href="style/style.css" media="screen" type="text/css" />
+    <link rel="shortcut icon" href="../favicon.ico">
+    <!--<link rel="stylesheet" type="text/css" href="style/default.css" />-->
+    <link rel="stylesheet" type="text/css" href="style/component.css" />
+
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style/animate.css">
+	<link rel="stylesheet" href="style/form-elements.css">
+	<link rel="stylesheet" href="style/style1.css">
+	<link rel="stylesheet" href="style/media-queries.css">
+    <script src="js/modernizr.custom.js"></script>
+    <script src="js/jquery.js"></script>
+
+	<!-- Favicon and touch icons -->
+	<link rel="shortcut icon" href="ico/favicon1.jpg">
+</head>
+
+<body>
+
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'>
+<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+	 <!-- Features -->
+<div class="features-container section-container">
+	<div class="container">
+		<ul class="cbp-vimenu">
+			<li><a href="http://10.152.4.26:8080/testplatform/html/indexPage.html" class="icon-logo">HOME</a></li>
+			<li><a href="http://10.152.4.26:8080/httpmock/html/indexPage.html#" target="_self" class="icon-archive" >HTTPMOCK</a></li>
+			<li><a href="http://10.152.4.26:8080/dubbomock/html/indexPage.html#" target="_self" class="icon-briefcase">DUBBOMOCK</a></li>
+			<li><a href="http://10.152.4.26:8080/httptest/html/indexPage.html#" target="_self" class="icon-pencil">HTTPTEST</a></li>
+			<li><a href="http://10.152.4.26:8080/websitescan/html/indexPage.html#" target="_self" class="icon-search">WEBSITESCAN</a></li>
+		</ul>
+	</div>
+		<div class="msform5">
+			<div class="col-sm-12 features section-description wow fadeIn animated" style="visibility: visible; animation-name: fadeIn;">
+				<h2><strong>Welcome</strong> testplatform</h2>
+				<div class="divider-1 wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;"><span></span></div>
+			</div>
+		</div>
+
+<!--	<div class="container-n">-->
+	<div class="msform1">
+<!--	<div class="row1">-->
+			<div onclick="window.open('http://10.152.4.26:8080/httpmock/html/indexPage.html','_self')" class="col-sm-4 features-box wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;" >
+				<div class="features-box-icon">
+					<i class="fa fa-briefcase"></i>
+				</div>
+				<h3>HTTPMOCK</h3>
+				<p>我能做什么：模拟任意提供http服务的后端系统。如果服务提供方还未完成或不稳定、影响你进行联调测试或者你想让服务提供方返回某种难以模拟的返回值，你可以使用本功能。</p>
+				<p>需要怎么做：1、创建接口信息；2、新增mock数据、设置mock条件；3、将原调用地址"http://ip:port"改为"http://10.152.4.26:8080/httpmock/mocking"</p>
+			</div>
+	</div>
+	<div class="msform2">
+			<div onclick="window.open('http://10.152.4.26:8080/dubbomock/html/indexPage.html','_self')" class="col-sm-4 features-box wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">
+				<div class="features-box-icon">
+					<i class="fa fa-arrows-alt"></i>
+				</div>
+				<h3>DUBBOMOCK</h3>
+				<p>我能做什么：模拟任意提供dubbo服务的后端系统。如果服务提供方还未完成或不稳定、影响你进行联调测试或者你想让服务提供方返回某种难以模拟的返回值，你可以使用本功能。</p>
+				<p>需要怎么做：1、新增mock数据及条件；2、将原“registry.address”改为“10.152.4.26:2181”，将原“protocol.port”改为“20880”</p>
+			</div>
+</div>
+	<div class="msform3">
+			<div onclick="window.open('http://10.152.4.26:8080/httptest/html/indexPage.html','_self')" class="col-sm-4 features-box wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+				<div class="features-box-icon">
+					<i class="fa fa-cloud"></i>
+				</div>
+				<h3>HTTPTEST</h3>
+				<p>我能做什么：提供http接口自动化测试。自动解析excel格式接口测试用例、自动进行接口测试（包含自动提取传递登录态）、自动回写测试结果到excel、自动发送报告到指定邮箱。</p>
+				<p>需要怎么做：1、下载excel模版；2、按照模版填写接口测试用例；3、按照要求上传excel和填写内容，点击提交。</p>
+			</div>
+</div>
+		<div class="msform4">
+			<div onclick="window.open('http://10.152.4.26:8080/websitescan/html/indexPage.html','_self')" class="col-sm-4 features-box wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">
+				<div class="features-box-icon">
+					<i class="fa fa-search"></i>
+				</div>
+				<h3>WEBSITESCAN</h3>
+				<p>我能做什么：检测网站死链接、检测关键字、检测链接大小。</p>
+				<p>需要怎么做：1、填写网站首页url；2、填写想跳过的url；3、填写需要检测的关键字及url，点击提交，等待生成测试报告。</p>
+			</div>
+	</div>
+</div>
+</body>
+</html>
